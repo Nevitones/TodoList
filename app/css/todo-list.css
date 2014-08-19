@@ -1,0 +1,81 @@
+/* line 3, ../sass/todo-list.scss */
+ul#todoList {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, ../sass/todo-list.scss */
+ul#todoList li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  font: 12px Arial;
+  color: #777777;
+  border: solid 1px #ccc;
+  background-color: #ddd;
+  border-radius: 0.5em;
+  line-height: 12px;
+}
+
+/* line 20, ../sass/todo-list.scss */
+ul#todoList li.done {
+  color: #777777;
+  border: solid 1px #ccc;
+  background-color: #beb;
+}
+
+/* line 26, ../sass/todo-list.scss */
+ul#todoList input {
+  margin: 0 10px 0 0;
+  vertical-align: bottom;
+}
+
+/* line 31, ../sass/todo-list.scss */
+ul#todoList .description[contenteditable="true"],
+ul#todoList .description:focus {
+  background-color: #fff;
+  display: inline-block;
+}
+
+/* line 37, ../sass/todo-list.scss */
+ul#todoList a {
+  float: right;
+  border-radius: 0.75em;
+  color: #fff;
+  background-color: #f77;
+  width: 1.3em;
+  height: 1.3em;
+  font-size: 11px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 49, ../sass/todo-list.scss */
+h1 {
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font: 22px Arial;
+  color: #777777;
+  border: solid 1px #ccc;
+  background-color: #eee;
+  border-radius: 0.5em;
+  line-height: 36px;
+}
+
+/* line 62, ../sass/todo-list.scss */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font: 12px Arial;
+  color: #777777;
+  border: solid 1px #aaa;
+  background: linear-gradient(#eeeeee, #cccccc);
+  border-radius: 0.5em;
+  line-height: 36px;
+}
+
+/*# sourceMappingURL=todo-list.css.map */

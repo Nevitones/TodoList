@@ -1,0 +1,13 @@
+{
+  "description": "Todo-List app created for Backbone study",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-compass": "^1.3.0",
+    "gulp-util": "^3.0.0",
+    "gulp-uglifyjs": "^0.4.2"
+  }
+}

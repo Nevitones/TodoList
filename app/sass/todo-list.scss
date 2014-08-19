@@ -1,0 +1,73 @@
+$main-color: #777;
+
+ul#todoList {
+	padding: 0;
+	margin: 0;
+}
+
+ul#todoList li {
+	list-style: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	font: 12px Arial;
+	color: $main-color;
+	border: solid 1px #ccc;
+	background-color: #ddd;
+	border-radius: 0.5em;
+	line-height: 12px;
+}
+
+ul#todoList li.done {
+	color: $main-color;
+	border: solid 1px #ccc;
+	background-color: #beb;
+}
+
+ul#todoList input {
+	margin: 0 10px 0 0;
+	vertical-align: bottom;
+}
+
+ul#todoList .description[contenteditable="true"],
+ul#todoList .description:focus {
+	background-color: #fff;
+	display: inline-block;
+}
+
+ul#todoList a {
+	float: right;
+	border-radius: 0.75em;
+	color: #fff;
+	background-color: #f77;
+	width: 1.3em;
+	height: 1.3em;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font: 22px Arial;
+	color: $main-color;
+	border: solid 1px #ccc;
+	background-color: #eee;
+	border-radius: 0.5em;
+	line-height: 36px;
+}
+
+button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	font: 12px Arial;
+	color: $main-color;
+	border: solid 1px #aaa;
+	background: linear-gradient(#eee, #ccc);
+	border-radius: 0.5em;
+	line-height: 36px;
+}
