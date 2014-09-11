@@ -1,1 +1,107 @@
-var TodoModel=Backbone.Model.extend({defaults:function(){return{done:!1,description:""}}}),TodoCollection=Backbone.Collection.extend({url:"http://localhost:9595",model:TodoModel,initialize:function(){this.on("add",this.onAdd,this)},onAdd:function(a){if(!a.id){var b=new TodoModelView({model:a});todoCollectionView.$el.append(b.render()),b.edit()}}}),TodoModelView=Backbone.View.extend({tagName:"li",className:"todo-list-item",model:new TodoModel,events:{"click a":"delete","click input":"close","blur .description":"close","dblclick .description":"edit","keypress .description":"onKeypress"},initialize:function(){this.template=_.template($("#todoItem").html())},render:function(){return this.$el.html(this.template(this.model.toJSON())).removeClass("done").addClass(this.model.get("done")?"done":""),this.$el},"delete":function(a){a.preventDefault(),this.model.destroy({success:function(){todoCollectionView.render()}})},edit:function(){this.$el.find(".description").attr("contenteditable",!0).focus()},onKeypress:function(a){13===a.keyCode&&this.$el.find(".description").blur()},close:function(){var a=this.$el.find(".description").removeAttr("contenteditable").text(),b=this.$el.find("input").prop("checked");this.model.set("description",a.replace(/</g,"&lt").replace(/>/g,"&gt")),this.model.set("done",b);var c=this;this.model.save({},{success:function(a){c.render(),a.id||a.set("id",todoList.id)}})}}),TodoCollectionView=Backbone.View.extend({model:new TodoCollection,el:"#todoList",render:function(){var a=new TodoCollection,b=this;b.$el.empty(),a.fetch({success:function(a){$.each(a.models,function(a,c){var d=new TodoModelView({model:c});b.$el.append(d.render())})}})}}),todoCollectionView=new TodoCollectionView;todoCollectionView.render(),$(document).on("ready",function(){$("button").on("click",function(a){a.preventDefault();var b=new TodoModel;todoCollectionView.model.add(b)})});
+var TodoModel = Backbone.Model.extend({
+    defaults: function() {
+        return {
+            done: false,
+            description: ""
+        };
+    }
+});
+
+var TodoCollection = Backbone.Collection.extend({
+    url: "http://localhost:9595",
+    model: TodoModel,
+    initialize: function() {
+        this.on("add", this.onAdd, this);
+    },
+    onAdd: function(model) {
+        if (!model.id) {
+            var todoModelView = new TodoModelView({
+                model: model
+            });
+            todoCollectionView.$el.append(todoModelView.render());
+            todoModelView.edit();
+        }
+    }
+});
+
+var TodoModelView = Backbone.View.extend({
+    tagName: "li",
+    className: "todo-list-item",
+    model: new TodoModel(),
+    events: {
+        "click a": "delete",
+        "click input": "close",
+        "blur .description": "close",
+        "dblclick .description": "edit",
+        "keypress .description": "onKeypress"
+    },
+    initialize: function() {
+        this.template = _.template($("#todoItem").html());
+    },
+    render: function() {
+        this.$el.html(this.template(this.model.toJSON())).removeClass("done").addClass(this.model.get("done") ? "done" : "");
+        return this.$el;
+    },
+    "delete": function(e) {
+        e.preventDefault();
+        this.model.destroy({
+            success: function() {
+                todoCollectionView.render();
+            }
+        });
+    },
+    edit: function(e) {
+        this.$el.find(".description").attr("contenteditable", true).focus();
+    },
+    onKeypress: function(e) {
+        if (e.keyCode === 13) {
+            this.$el.find(".description").blur();
+        }
+    },
+    close: function(e) {
+        var description = this.$el.find(".description").removeAttr("contenteditable").text(), done = this.$el.find("input").prop("checked");
+        this.model.set("description", description.replace(/</g, "&lt").replace(/>/g, "&gt"));
+        this.model.set("done", done);
+        var self = this;
+        this.model.save({}, {
+            success: function(model) {
+                self.render();
+                if (!model.id) {
+                    model.set("id", todoList.id);
+                }
+            }
+        });
+    }
+});
+
+var TodoCollectionView = Backbone.View.extend({
+    model: new TodoCollection(),
+    el: "#todoList",
+    render: function() {
+        var todoCollection = new TodoCollection();
+        var self = this;
+        self.$el.empty();
+        todoCollection.fetch({
+            success: function(todos) {
+                $.each(todos.models, function(index, todoModel) {
+                    var todoModelView = new TodoModelView({
+                        model: todoModel
+                    });
+                    self.$el.append(todoModelView.render());
+                });
+            }
+        });
+    }
+});
+
+var todoCollectionView = new TodoCollectionView();
+
+todoCollectionView.render();
+
+$(document).on("ready", function() {
+    $("button").on("click", function(e) {
+        e.preventDefault();
+        var todoModel = new TodoModel();
+        todoCollectionView.model.add(todoModel);
+    });
+});

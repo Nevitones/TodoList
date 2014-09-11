@@ -1,27 +1,3 @@
-var TodoModel = Backbone.Model.extend({
-		defaults: function(){
-			return {
-				done: false,
-				description: ''
-			};
-		}
-	});
-
-var TodoCollection = Backbone.Collection.extend({
-	url: 'http://localhost:9595',
-	model: TodoModel,
-	initialize: function(){
-		this.on('add', this.onAdd, this);
-	},
-	onAdd: function(model){
-		if (!model.id) {
-			var todoModelView = new TodoModelView({model: model});
-			todoCollectionView.$el.append(todoModelView.render());
-			todoModelView.edit();
-		}
-	}
-});
-
 var TodoModelView = Backbone.View.extend({
 	tagName: 'li',
 	className: 'todo-list-item',
@@ -79,38 +55,4 @@ var TodoModelView = Backbone.View.extend({
 			}
 		});
 	},
-});
-
-var TodoCollectionView = Backbone.View.extend({
-	model: new TodoCollection(),
-	el: '#todoList',
-	render: function() {
-		var todoCollection = new TodoCollection();
-		var self = this;
-		self.$el.empty();
-
-		todoCollection.fetch({
-			success: function(todos) {
-				$.each(todos.models, function(index, todoModel){
-					var todoModelView = new TodoModelView({model: todoModel});
-					self.$el.append(todoModelView.render());
-				});
-			}
-		});
-	}
-});
-
-var todoCollectionView = new TodoCollectionView();
-
-todoCollectionView.render();
-
-$(document).on('ready', function(){
-
-	$('button').on('click', function(e) {
-		e.preventDefault();
-
-		var todoModel = new TodoModel();
-		todoCollectionView.model.add(todoModel);
-	});
-
 });

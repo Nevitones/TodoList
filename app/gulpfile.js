@@ -15,6 +15,19 @@ gulp.task('uglifyjs', function(){
 		.pipe(gulp.dest('./js'));
 });
 
+gulp.task('unifyjs', function(){
+	return gulp.src(['./src/js/TodoModel.js', './src/js/TodoCollection.js', './src/js/TodoModelView.js', './src/js/TodoCollectionView.js', './src/js/TodoApp.js'])
+		.pipe(uglifyjs('todo-list-min.js', {
+				mangle: false,
+				compress: false,
+				output: {
+					beautify: true
+				}
+			})
+		)
+		.pipe(gulp.dest('./js'));
+});
+
 gulp.task('default', ['compass', 'uglifyjs']);
 
 gulp.task('watch', function(){
