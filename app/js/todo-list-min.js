@@ -9,19 +9,7 @@ var TodoModel = Backbone.Model.extend({
 
 var TodoCollection = Backbone.Collection.extend({
     url: "http://localhost:9595",
-    model: TodoModel,
-    initialize: function() {
-        this.on("add", this.onAdd, this);
-    },
-    onAdd: function(model) {
-        if (!model.id) {
-            var todoModelView = new TodoModelView({
-                model: model
-            });
-            todoCollectionView.$el.append(todoModelView.render());
-            todoModelView.edit();
-        }
-    }
+    model: TodoModel
 });
 
 var TodoModelView = Backbone.View.extend({
@@ -37,16 +25,23 @@ var TodoModelView = Backbone.View.extend({
     },
     initialize: function() {
         this.template = _.template($("#todoItem").html());
+        this.listenTo(this.model, "change:done", this.doneChanged);
     },
     render: function() {
         this.$el.html(this.template(this.model.toJSON())).removeClass("done").addClass(this.model.get("done") ? "done" : "");
-        return this.$el;
+        return this;
     },
     "delete": function(e) {
         e.preventDefault();
-        this.model.destroy({
-            success: function() {
-                todoCollectionView.render();
+        var self = this;
+        self.model.destroy({
+            success: function(model) {
+                self.$el.animate({
+                    marginTop: -self.$el.outerHeight(),
+                    opacity: 0
+                }, 250, function() {
+                    self.remove();
+                });
             }
         });
     },
@@ -60,48 +55,59 @@ var TodoModelView = Backbone.View.extend({
     },
     close: function(e) {
         var description = this.$el.find(".description").removeAttr("contenteditable").text(), done = this.$el.find("input").prop("checked");
-        this.model.set("description", description.replace(/</g, "&lt").replace(/>/g, "&gt"));
-        this.model.set("done", done);
-        var self = this;
-        this.model.save({}, {
-            success: function(model) {
-                self.render();
-                if (!model.id) {
-                    model.set("id", todoList.id);
-                }
-            }
+        this.model.set({
+            description: description.replace(/</g, "&lt").replace(/>/g, "&gt"),
+            done: done
         });
+        this.model.save();
+    },
+    doneChanged: function() {
+        this.render();
     }
 });
 
 var TodoCollectionView = Backbone.View.extend({
-    model: new TodoCollection(),
-    el: "#todoList",
+    initialize: function() {
+        this.collection = new TodoCollection();
+        this.listenTo(this.collection, "add", this.itemAdded);
+    },
     render: function() {
-        var todoCollection = new TodoCollection();
-        var self = this;
-        self.$el.empty();
-        todoCollection.fetch({
-            success: function(todos) {
-                $.each(todos.models, function(index, todoModel) {
-                    var todoModelView = new TodoModelView({
-                        model: todoModel
-                    });
-                    self.$el.append(todoModelView.render());
-                });
-            }
+        this.$el.empty();
+        this.collection.fetch();
+        return this;
+    },
+    itemAdded: function(model) {
+        var todoModelView = new TodoModelView({
+            model: model
         });
+        this.$el.append(todoModelView.render().$el);
+        todoModelView.render().$el.css({
+            marginTop: -todoModelView.render().$el.outerHeight(),
+            opacity: 0
+        }).animate({
+            marginTop: 0,
+            opacity: 1
+        }, 250);
+        if (model.isNew()) {
+            todoModelView.edit();
+        }
     }
 });
 
-var todoCollectionView = new TodoCollectionView();
-
-todoCollectionView.render();
-
-$(document).on("ready", function() {
-    $("button").on("click", function(e) {
-        e.preventDefault();
-        var todoModel = new TodoModel();
-        todoCollectionView.model.add(todoModel);
-    });
+var TodoMainView = Backbone.View.extend({
+    el: "body",
+    events: {
+        "click button": "addItem"
+    },
+    initialize: function() {
+        this.$el.append($("#todoMain").html());
+        this.todoCollectionView = new TodoCollectionView({
+            el: this.$el.find("#todoList")
+        }).render();
+    },
+    addItem: function() {
+        this.todoCollectionView.collection.add(new TodoModel());
+    }
 });
+
+var todoMainView = new TodoMainView();

@@ -1,18 +1,24 @@
 var TodoCollectionView = Backbone.View.extend({
-	model: new TodoCollection(),
-	el: '#todoList',
-	render: function() {
-		var todoCollection = new TodoCollection();
-		var self = this;
-		self.$el.empty();
+	initialize: function() {
+		this.collection = new TodoCollection();
+		this.listenTo(this.collection, 'add', this.itemAdded);
+	},
 
-		todoCollection.fetch({
-			success: function(todos) {
-				$.each(todos.models, function(index, todoModel){
-					var todoModelView = new TodoModelView({model: todoModel});
-					self.$el.append(todoModelView.render());
-				});
-			}
-		});
+	render: function() {
+		this.$el.empty();
+		this.collection.fetch();
+		return this;
+	},
+
+	itemAdded: function(model) {
+		var todoModelView = new TodoModelView({model: model});
+		this.$el.append(todoModelView.render().$el);
+		todoModelView.render().$el
+				.css({marginTop: -todoModelView.render().$el.outerHeight(), opacity:0})
+				.animate({marginTop: 0, opacity:1}, 250);
+
+		if (model.isNew()) {
+			todoModelView.edit();
+		}
 	}
 });

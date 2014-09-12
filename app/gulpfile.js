@@ -16,7 +16,7 @@ gulp.task('uglifyjs', function(){
 });
 
 gulp.task('unifyjs', function(){
-	return gulp.src(['./src/js/TodoModel.js', './src/js/TodoCollection.js', './src/js/TodoModelView.js', './src/js/TodoCollectionView.js', './src/js/TodoApp.js'])
+	return gulp.src(['./src/js/TodoModel.js', './src/js/TodoCollection.js', './src/js/TodoModelView.js', './src/js/TodoCollectionView.js', './src/js/TodoMainView.js', './src/js/TodoApp.js'])
 		.pipe(uglifyjs('todo-list-min.js', {
 				mangle: false,
 				compress: false,

@@ -11,19 +11,24 @@ var TodoModelView = Backbone.View.extend({
 	},
 	initialize: function(){
 		this.template = _.template($('#todoItem').html());
+		this.listenTo(this.model, 'change:done', this.doneChanged);
 	},
 
 	render: function(){
 		this.$el
 			.html(this.template(this.model.toJSON()))
 			.removeClass('done').addClass(this.model.get('done') ? 'done' : '');
-		return this.$el;
+
+		return this;
 	},
 	delete: function(e) {
 		e.preventDefault();
-		this.model.destroy({
-			success: function(){
-				todoCollectionView.render();
+		var self = this;
+		self.model.destroy({
+			success: function(model) {
+				self.$el.animate({marginTop: -self.$el.outerHeight(), opacity:0}, 250, function() {
+					self.remove();
+				});
 			}
 		});
 	}, 
@@ -41,18 +46,14 @@ var TodoModelView = Backbone.View.extend({
 							.text(),
 			done = this.$el.find('input').prop('checked');
 
-		this.model.set('description', description.replace(/</g, '&lt').replace(/>/g, '&gt'));
-		this.model.set('done', done);
-
-		var self = this;
-
-		this.model.save({}, {
-			success: function(model){
-				self.render();
-				if (!model.id) {
-					model.set('id', todoList.id);
-				}
-			}
+		this.model.set({
+			'description': description.replace(/</g, '&lt').replace(/>/g, '&gt'),
+			'done': done
 		});
+
+		this.model.save(); // CAN ADD A LOADING UNTIL SUCCESS CALLBACK
 	},
+	doneChanged: function() {
+		this.render();
+	}
 });

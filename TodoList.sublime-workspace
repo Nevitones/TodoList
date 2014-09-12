@@ -1,0 +1,759 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cancel",
+				"cancelUpdate"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"user",
+				"userCollectionView"
+			],
+			[
+				"User",
+				"userModelView"
+			],
+			[
+				"set_c",
+				"mysql_set_charset"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"auto",
+				"autoHeight"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"ID_",
+				"ID_WRAPPER"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"embed",
+				"embedVideo"
+			],
+			[
+				"replace",
+				"replaceElement"
+			],
+			[
+				"Web",
+				"WEb"
+			],
+			[
+				"Inspect",
+				"INspector"
+			],
+			[
+				"o",
+				"OPT2"
+			],
+			[
+				"get",
+				"getFirstFile"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"obj",
+				"objQueueUpload	[]"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"ob",
+				"objQueueUpload"
+			],
+			[
+				"hi",
+				"hideFiles(e)"
+			],
+			[
+				"x",
+				"xhRequest	(?)"
+			],
+			[
+				"f",
+				"fun	Function"
+			],
+			[
+				"phot",
+				"photoFB"
+			],
+			[
+				"submi",
+				"submitFacebookPhoto"
+			],
+			[
+				"path",
+				"PATH_FB_UPLOAD"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"e",
+				"elif	elif …"
+			],
+			[
+				"TO",
+				"TOTAL_FILES"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"KEY",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"control",
+				"Package Control: List Packages"
+			],
+			[
+				"svn:reve",
+				"SVN: (File) Revert"
+			],
+			[
+				"HTML",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"instaal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"view.encoding();",
+			"view.enconding();",
+			"view.encoding()",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/firstapp/fonts/glyphicons-halflings-regular.svg",
+		"/C/wamp/www/firstapp/css/bootstrap.min.css",
+		"/C/wamp/www/firstapp/css/bootstrap.css",
+		"/C/Users/Nevitones/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Nevitones/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Nevitones/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/firstapp/.htaccess",
+		"/C/WORK/git/TodoList/app/src/js/todo-list.js",
+		"/C/wamp/www/firstapp/js/UserModel.js",
+		"/C/wamp/www/firstapp/js/userView.js",
+		"/C/wamp/www/firstapp/js/webapp.js",
+		"/C/wamp/www/firstapp/js/userCollection.js",
+		"/C/wamp/www/firstapp/js/UserCollectionView.js",
+		"/C/wamp/www/firstapp/js/UserModelView.js",
+		"/C/wamp/www/firstapp/js/userModel.js",
+		"/C/wamp/www/firstapp/user.php",
+		"/C/wamp/www/firstapp/json.php",
+		"/C/.htaccess_",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/wamp/tmp/session_dir",
+		"/C/wamp/www/.htaccess",
+		"/C/wamp/alias/phpmyadmin.conf",
+		"/C/wamp/www/firstapp/Novo Documento de Texto.txt",
+		"/G/_Autorun.inf",
+		"/G/Autorun.inf",
+		"/C/Users/Nevitones/Videos/Acampa Inverno 2014/ConvertAll.bat",
+		"/C/Users/Nevitones/Pictures/JNI 2014/2014-04-12 MISSING/Nova Pasta/rename.bat",
+		"/C/Program Files/Popcorn Time/plugins/plugins.dat",
+		"/C/Program Files/Popcorn Time/lib.lib",
+		"/C/Program Files/Popcorn Time/guiclient.map",
+		"/C/Program Files/Popcorn Time/guiclient.drc",
+		"/C/Program Files/Popcorn Time/cef.pak",
+		"/C/Users/Nevitones/Downloads/download3.png",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Participation_InstagramPhotoPicker.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Participation_FBPhotoPicker.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/media-view-participation-instagramphotopicker.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/2.view-participation-instagramphotopicker.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/framework/js/4.MODULES_Instagram.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/pt/cbInstagram.html",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/index.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/3.COMPONENT_Gallery.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/framework/js/3.APP_getProperty.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Home_Carousel.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.WallGallery.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/participation/participation.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.TOOL_KoImageCrop.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/MainApplication.js",
+		"/C/Users/Nevitones/AppData/Local/Temp/PopcornTime/This Is 40 UNRATED (2012)/This Is 40 Unrated 2012 BRRiP x264 AC3-OFFLiNE.srt",
+		"/C/Users/Nevitones/AppData/Local/Temp/PopcornTime/This Is 40 UNRATED (2012)/This.Is.40.UNRATED.2012.720p.BrRip.x264.BOKUTOX.YIFY.srt",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/pageNotFound.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/3.COMPONENT_Gallery_template.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/PSD/pt/general/itGallery.psd",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/Gruntfile.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/java/br/com/cit/cc/delvalle/wallpride/presentation/controller/bean/UploadImageControllerBean.java",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/pt/img/loaderGallery2.gif.r113519",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/resources/log4j.properties",
+		"/C/Users/Nevitones/AppData/Local/Temp/PopcornTime/Goodbye World (2013)/Goodbye.World.2013.720p.WEB-DL.H264-PublicHD port.srt",
+		"/C/Users/Nevitones/Downloads/YouTubeCenter.crx",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/admin/templates/admin_template.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/admin/js/admin_template.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/admin/css/admin_template.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/pt/txt_terms.html",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/pt/txt_policy.html",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Home.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/2.plugin-jquery-ko-carousel-1.0.0.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/admin/home.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/csscomb.json",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/resources/captcha.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/1.itGallery.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/media-view-gallery.css",
+		"/C/Users/Nevitones/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/run.bat",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/wall/wall.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/media.main.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Participation_Breadcrumb.js",
+		"/C/Users/Nevitones/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/framework/js/0.plugin-modernizr.custom.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/test/resources/spring-base-test.xml",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Share.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/modal/js/2.MODULE_Permalink.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/wall/permalink.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/templates/infobar.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/templates/header.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/templates/footer.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/admin/moderate.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/admin/login.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/admin/error.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/systemUnavailable.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/java/br/com/cit/cc/delvalle/wallpride/fico/presentation/controller/SendEmailChangePasswordController.java",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/redirect.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/pageNotFound.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/java/br/com/cit/cc/delvalle/wallpride/presentation/constants/JSONErrorConstants.java",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/jetty.bat",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/admin/css/datable-skin/jquery-ui-1.8.4.custom.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/admin/admin-wf/data.json",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/DelValle.sublime-project",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/java/br/com/cit/cc/delvalle/wallpride/presentation/util/WallPrideUtils.java",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/pt/txt_privacy.html",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/java/br/com/cit/cc/delvalle/wallpride/presentation/controller/WallPridePermalinkController.java",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/test/resources/spring-controller-test.xml",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/pt/proxy.html",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/modal/js/MainApplication.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/media-view-participarion.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/admin/home_body.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/jsp/templates/headTag.jsp",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Participation_Step1.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/admin/admin-wf/style.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Participation.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/package.json",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/pom.xml",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/js/4.MODULES.Participation_Step5.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/0.main.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/1.header.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/1.footer.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/web_resources/pt/general/css/2.view-home.css",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/resources/ApplicationResources.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/resources/ApplicationConfiguration.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/resources/tst_es/ApplicationConfiguration.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/test/resources/ApplicationConfiguration.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/resources/dev/envConfig.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/resources/int/envConfig.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/test/resources/captcha.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/test/resources/log4j.properties",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/java/br/com/cit/cc/delvalle/wallpride/presentation/vo/PropertyVO.java",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/pt/js/plugin-jquery.fileReader.min.js",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/java/br/com/cit/cc/delvalle/wallpride/presentation/util/PresentationUtils.java",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/src/main/webapp/WEB-INF/spring/spring-admin.xml",
+		"/C/WORK/cit/Del Valle - Charter/mural_do_orgulho_brazil/java/delvalle-wallpride-parent/delvalle-wallpride-web/content/htdocs/health-check.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\firstapp\\js",
+			"<project>",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.js",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.css",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.js",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.jsp",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.js",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.css",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.js",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.jsp",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources,*.html",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources,*.jsp",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources,*.JS",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources,*.css",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt,*.prop*",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt,*.css",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\,*.*",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\pt,*.*",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt,*.*",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt,*.prop*",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt,*.css",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt\\,*.js",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt\\",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt\\framework\\",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt\\",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt\\framework\\",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt\\general\\",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt\\general\\js",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\src",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources\\pt",
+			"C:\\WORK\\cit\\Del Valle - Charter\\mural_do_orgulho_brazil\\java\\delvalle-wallpride-parent\\delvalle-wallpride-web\\content\\web_resources",
+			"C:\\WORK\\cit\\cocacolaWifi\\trunk\\java\\ccv-ccwf-parent\\ccv-ccwf-web\\content",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\web_resources\\general",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\web_resources",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\web_resources\\general\\js",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\,*.js",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\web_resources,*.js",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\web_resources,*.*css",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\web_resources,*.js",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\web_resources,*.css",
+			"C:\\WORK\\cit\\trunk\\ccv-mashapp-web\\content\\web_resources,*.scss",
+			"C:\\WORK\\cit\\mashup\\content\\web_resources,*.js",
+			"C:\\WORK\\cit\\mashup\\content\\web_resources"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cancelUpdate",
+			"controls",
+			"editUser",
+			"userModel",
+			"trigger",
+			"updateUser",
+			":",
+			"delete",
+			"selection",
+			"select",
+			"expan",
+			"+m",
+			"+M",
+			"var_",
+			",",
+			"renderRow",
+			"icon",
+			"\"",
+			"new",
+			"case",
+			"user",
+			"firstapp",
+			"mySqlConnection",
+			" $",
+			"echo",
+			"attributes",
+			"\"",
+			"5",
+			";",
+			"proxy/",
+			"getCarouselScrollInterval",
+			"get.+interval",
+			"1900",
+			"notfound",
+			"iOsMpImageFix",
+			"loadMore",
+			"resizeGalleryContainer",
+			"onGalleryLoadMore",
+			"corsGetToken",
+			"onGalleryLoadMore",
+			"ID_CONTENT",
+			"gallery-items",
+			"704",
+			"704px",
+			"oadM",
+			"loadItems",
+			"corsGetToken",
+			"onGetTokenSuccess",
+			"loadItems",
+			"loadMore",
+			"ç",
+			"ê",
+			"ú",
+			"ó",
+			"í",
+			"é",
+			"á",
+			"ã",
+			"õ",
+			"ã",
+			"console.log",
+			"true",
+			"ugli",
+			"mango",
+			"onCarouselItem",
+			"getProperty =",
+			":",
+			"ssldocs/g",
+			"ssldocs/w",
+			"ssldocs",
+			"bar",
+			"group",
+			"16px",
+			"12px",
+			"10px",
+			"#galleryContent .holderImage",
+			"gallery-rows-bg",
+			"#view-gallery #galleryContent .gallery-rows-bg",
+			"5%",
+			"35%",
+			"gallery-items-tile.jpg",
+			"#view-gallery #galleryContent .gallery-rows-bg",
+			"elFlowContent",
+			"#view-participation",
+			"view-participation",
+			"150",
+			"#galleryContent .gallery-wrapper",
+			"permalink",
+			"data-permalink",
+			"share",
+			"gallery",
+			"566",
+			"#galleryContent .gallery-wrapper",
+			"gallery-items",
+			"154",
+			"gallery_item",
+			"contentID",
+			"loadMore",
+			"enableScrollCheck",
+			"loadites",
+			"onBtnSubmitClickHandler",
+			"BTN_OK",
+			"contentID",
+			"#galleryContent .gallery-items",
+			".itGallery.arrow-down",
+			"gallery/h",
+			"gallery/",
+			"gallery/h",
+			"PATH",
+			"PATH\n",
+			"btnGotoGallery",
+			"'ssldocs/gallery/",
+			"'gallery/",
+			"gallery/\"",
+			"gallery/'",
+			"GALLERY/",
+			"wallImages",
+			"loadMore",
+			"enableScrollCheck",
+			"onGalleryNoResult",
+			"#galleryContent .gallery-wrapper",
+			"#galleryContent .gallery_item",
+			"#galleryContent .gallery-wrapper",
+			"filho",
+			"(a",
+			"ignore",
+			"(a)",
+			"no nosso mural"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"c",
+			"e",
+			"u",
+			"o",
+			"i",
+			"e",
+			"a",
+			"o",
+			"a",
+			"../../<%= pkg.server %>",
+			"../../htdocs",
+			".",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "TodoList.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"content\\web_resources\\pt\\general\\js\\4.MODULES.Participation_InstagramPhotoPicker.js"
+			],
+			[
+				"not",
+				"content\\htdocs\\pageNotFound.jsp"
+			],
+			[
+				"galleyjs",
+				"content\\web_resources\\pt\\general\\js\\4.MODULES.WallGallery.js"
+			],
+			[
+				"template",
+				"content\\web_resources\\pt\\general\\js\\3.COMPONENT_Gallery_template.js"
+			],
+			[
+				"homejs",
+				"content\\web_resources\\pt\\general\\js\\4.MODULES.Home.js"
+			],
+			[
+				"carousel",
+				"content\\web_resources\\pt\\general\\js\\2.plugin-jquery-ko-carousel-1.0.0.js"
+			],
+			[
+				"bread",
+				"content\\web_resources\\pt\\general\\js\\4.MODULES.Participation_Breadcrumb.js"
+			],
+			[
+				"jsp",
+				"src\\main\\webapp\\WEB-INF\\jsp\\wall\\wall.jsp"
+			],
+			[
+				"home_b",
+				"src\\main\\webapp\\WEB-INF\\jsp\\admin\\home_body.jsp"
+			],
+			[
+				"home",
+				"src\\main\\webapp\\WEB-INF\\jsp\\admin\\home.jsp"
+			],
+			[
+				"walljs",
+				"content\\web_resources\\pt\\general\\js\\4.MODULES.WallGallery.js"
+			],
+			[
+				"participa",
+				"src\\main\\webapp\\WEB-INF\\jsp\\participation\\participation.jsp"
+			],
+			[
+				"partijs",
+				"content\\web_resources\\pt\\general\\js\\4.MODULES.Participation_Breadcrumb.js"
+			],
+			[
+				"application.properties",
+				"src\\main\\resources\\ApplicationResources.properties"
+			],
+			[
+				"main",
+				"content\\web_resources\\pt\\general\\css\\0.main.css"
+			],
+			[
+				"header",
+				"src\\main\\webapp\\WEB-INF\\jsp\\templates\\header.jsp"
+			],
+			[
+				"head",
+				"src\\main\\webapp\\WEB-INF\\jsp\\templates\\headTag.jsp"
+			],
+			[
+				"applicationcon",
+				"src\\main\\resources\\ApplicationConfiguration.properties"
+			],
+			[
+				"yout",
+				"content\\web_resources\\pt\\framework\\js\\2.UTILS_youtube.js"
+			],
+			[
+				"module",
+				"content\\web_resources\\pt\\modal\\js\\2.MODULE_Login.js"
+			],
+			[
+				"you",
+				"content\\web_resources\\pt\\framework\\js\\2.UTILS_youtube.js"
+			],
+			[
+				"index.j",
+				"src\\main\\webapp\\WEB-INF\\jsp\\index.jsp"
+			],
+			[
+				"index.",
+				"target\\wallpride\\WEB-INF\\jsp\\index.jsp"
+			],
+			[
+				"wall",
+				"src\\main\\webapp\\WEB-INF\\jsp\\wall\\wall.jsp"
+			],
+			[
+				"applicatio",
+				"src\\main\\resources\\ApplicationConfiguration.properties"
+			],
+			[
+				"partici",
+				"target\\wallpride\\WEB-INF\\jsp\\participation\\participation.jsp"
+			],
+			[
+				"vendor",
+				"web_resources\\general\\css\\coke-sass\\project\\vendor-facebook-photopicker.css"
+			],
+			[
+				"fb",
+				"web_resources\\general\\js\\4.MODULES.Participation_FBPhotoPicker.js"
+			],
+			[
+				"createma",
+				"web_resources\\general\\js\\MODULES_CreateMashApp.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

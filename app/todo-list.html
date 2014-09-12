@@ -6,22 +6,25 @@
 	<link rel="stylesheet" href="css/todo-list.css">
 </head>
 <body>
-	<h1>TO-DO LIST</h1>
-	<ul id="todoList"></ul>
-	<form action="">
-		<button>ADD TODO</button>
-	</form>
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/underscore-min.js"></script>
-	<script src="js/backbone-min.js"></script>
-	<script src="js/todo-list-min.js"></script>
-	<!-- <script src="src/js/todo-list.js"></script> -->
 
 	<script type="text/template" id="todoItem">
 		<input type="checkbox" <% print(done === true ? 'checked="checked"' : '') %>/>
 		<span class="description"><%=description%></span>
 		<a href="#">x</a>
 	</script>
+
+	<script type="text/template" id="todoMain">
+		<h1>TO-DO LIST</h1>
+		<ul id="todoList"></ul>
+		<form action="">
+			<button type="button">ADD TODO</button>
+		</form>
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/backbone-min.js"></script>
+	<script src="js/todo-list-min.js"></script>
+
 </body>
 </html>
