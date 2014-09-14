@@ -10,7 +10,8 @@ var TodoModelView = Backbone.View.extend({
 		'keypress .description': 'onKeypress'
 	},
 	initialize: function(){
-		this.template = _.template($('#todoItem').html());
+		// this.template = _.template($('#todoItem').html());
+		this.template = templates.TodoModelView;
 		this.listenTo(this.model, 'change:done', this.doneChanged);
 	},
 
